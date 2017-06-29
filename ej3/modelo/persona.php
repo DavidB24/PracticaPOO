@@ -49,7 +49,7 @@ class Persona{
 	}
 
 	public function MostrarDatos(){
-		echo "<h1>Detalles de la persona: </h1>".'<br>';
+		echo "<h1>Detalles de la persona: </h1>7".'<br>';
 		echo "Nombre: ";
 		echo $this->getNombre().'<br>';
 		echo "Dirección: ";
