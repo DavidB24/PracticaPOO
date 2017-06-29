@@ -27,7 +27,7 @@ class Persona{
 
 	public function getnroDocumento()
 	{
-		return $this->documento;
+		return $this->nroDocumento;
 	}
 
 	public function setnroDocumento($nroDocumento)
@@ -45,16 +45,18 @@ class Persona{
 	}
 
 	public function MostrarDatos()
+
 	{
-		echo "Nombre :";
-		echo $this->getNombre().'<br'>;
+		echo "<h1>Datos de la persona: </h1>".'<br>';
+		echo "Nombre: ";
+		echo $this->getNombre().'<br>';
 		echo "Direccion: ";
 		echo $this->getDireccion().'<br>';
 		echo "Numero de documento: ";
 		echo $this->getnroDocumento().'<br>';
 		echo "Edad: ";
 		echo $this->getEdad().'<br>';
-		
+
 	}
 
 
